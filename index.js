@@ -4,24 +4,24 @@ let colorMode = ''
 
 let firstColor = window.getComputedStyle(document.getElementById('first')).getPropertyValue('background-color');
 let hexCode = firstColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(x => parseInt(x).toString(16).padStart(2, '0')).join('').toUpperCase();
-one.innerHTML = `#${hexCode}`
+one.innerHTML = `<br>#${hexCode}`
 
 
 let secondColor = window.getComputedStyle(document.getElementById('second')).getPropertyValue('background-color');
 let hexCode2 = secondColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(x => parseInt(x).toString(16).padStart(2, '0')).join('').toUpperCase();
-two.innerHTML = `#${hexCode2}`
+two.innerHTML = `<br>#${hexCode2}`
 
 let thirdColor = window.getComputedStyle(document.getElementById('third')).getPropertyValue('background-color');
 let hexCode3 = thirdColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(x => parseInt(x).toString(16).padStart(2, '0')).join('').toUpperCase();
-three.innerHTML = `#${hexCode3}`
+three.innerHTML = `<br>#${hexCode3}`
 
 let fourthColor = window.getComputedStyle(document.getElementById('fourth')).getPropertyValue('background-color');
 let hexCode4 = fourthColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(x => parseInt(x).toString(16).padStart(2, '0')).join('').toUpperCase();
-four.innerHTML = `#${hexCode4}`
+four.innerHTML = `<br>#${hexCode4}`
 
 let fifthColor = window.getComputedStyle(document.getElementById('fifth')).getPropertyValue('background-color');
 let hexCode5 = fifthColor.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(x => parseInt(x).toString(16).padStart(2, '0')).join('').toUpperCase();
-five.innerHTML = `#${hexCode5} `
+five.innerHTML = `<br>#${hexCode5} `
 
 
 colorPicker.addEventListener('input', (event) => {
@@ -51,11 +51,11 @@ getScheme.addEventListener('click', function() {
     third.style.backgroundColor = colors[2];
     fourth.style.backgroundColor = colors[3];
     fifth.style.backgroundColor = colors[4];
-    one.innerHTML = `${colors[0]} <br> <div onclick="copyToClipboard('${colors[0]}')">&#128203;</div>`
-    two.innerHTML = `${colors[1]} <br> <div onclick="copyToClipboard('${colors[1]}')">&#128203;</div>`
-    three.innerHTML = `${colors[2]} <br> <div onclick="copyToClipboard('${colors[2]}')">&#128203;</div>`
-    four.innerHTML = `${colors[3]} <br> <div onclick="copyToClipboard('${colors[3]}')">&#128203;</div>`
-    five.innerHTML = `${colors[4]} <br> <div onclick="copyToClipboard('${colors[4]}')">&#128203;</div>`
+    one.innerHTML = `<br>${colors[0]} <br> <div onclick="copyToClipboard('${colors[0]}')">&#128203;</div>`
+    two.innerHTML = `<br>${colors[1]} <br> <div onclick="copyToClipboard('${colors[1]}')">&#128203;</div>`
+    three.innerHTML = `<br>${colors[2]} <br> <div onclick="copyToClipboard('${colors[2]}')">&#128203;</div>`
+    four.innerHTML = `<br>${colors[3]} <br> <div onclick="copyToClipboard('${colors[3]}')">&#128203;</div>`
+    five.innerHTML = `<br>${colors[4]} <br> <div onclick="copyToClipboard('${colors[4]}')">&#128203;</div>`
     });
 });
 
