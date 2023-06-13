@@ -6,7 +6,7 @@
     background-color: green;
     box-sizing: border-box;
     white-space: nowrap;
-    border-style:dotted;
+    //border-style:dotted;
    
 }
 
@@ -32,7 +32,7 @@
     position: absolute;
     width: 50%;
     top: 25%;
-    height: 16%;
+    height: 26%;
     left: 25%;
     padding: 5px;
     font-size: 1.5rem;
