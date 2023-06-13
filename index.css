@@ -1,0 +1,168 @@
+#fullContainer {
+    width: 687px;
+    height: 100vh;
+    left: 72px;
+    top: 80px;
+    background-color: green;
+    box-sizing: border-box;
+    white-space: nowrap;
+   
+}
+
+#headbar{
+    position:relative;
+    height:20%;
+    display: flex;
+    flex-direction: row;
+    background: #1F2937;
+
+}
+
+#colorPicker{
+    position: absolute;
+    width: 15%;
+    top: 25%;
+    height: 50%;
+    left: 5%;
+    background-color:white;
+}
+
+#dropdownMenu {
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    height: 42px;
+    left: 25%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+#dropdownMenu option {
+    background-color: #fff;
+    color: #333;
+}
+
+#getScheme{
+    position: absolute;
+    box-sizing: border-box;
+    top: 25%;
+    width: 15%;
+    height: 35%;
+    left: 80%;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #374151;
+}
+
+#fiveColumns{
+    height: 60%;
+    width: 100%;
+    background-color: pink;
+    display : flex;
+    flex-direction : row;
+}
+
+#first {
+    width: 20%;
+    background: #FF0000;
+}
+
+#second {
+    width: 20%;
+    background: #D1D5DB;
+}
+
+#third {
+    width: 20%;
+    background: #008000
+}
+
+#fourth {
+    width: 20%;
+    background: #800080
+}
+
+#fifth {
+    width: 20%;
+    background: #FFA500;
+}
+
+
+
+.hexes{
+    position: relative;
+    width: 100%;
+    background: #1F2937;
+    display : flex;
+    flex-direction : row;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oneTime {
+    position: absolute;
+    width: 16%;
+    left: 2%;
+    text-align: center;
+    background-color: cornsilk;
+    height: 35%;
+    align-items: center;
+    font-size: 22px;
+}
+
+.twoTime {
+    position: absolute;
+    width: 16%;
+    left: 22%;
+    height: 35%;
+    text-align: center;
+    background-color: cornsilk;
+    align-items: center;
+    font-size: 22px;
+}
+
+.threeTime {
+    position: absolute;
+    width: 16%;
+    left: 42%;
+    text-align: center;
+    background-color: cornsilk;
+    height: 35%;
+    align-items: center;
+    font-size: 22px;
+}
+
+.fourTime {
+    position: absolute;
+    width: 16%;
+    left: 62%;
+    text-align: center;
+    background-color: cornsilk;
+    height: 35%;
+    align-items: center;
+    font-size: 22px;
+}
+
+.fiveTime {
+    position: absolute;
+    width: 16%;
+    left: 82%;
+    text-align: center;
+    background-color: cornsilk;
+    height: 35%;
+    align-items: center;
+    font-size: 22px;
+}
