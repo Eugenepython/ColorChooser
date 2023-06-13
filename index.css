@@ -1,11 +1,12 @@
 #fullContainer {
-    width: 687px;
-    height: 100vh;
+    width: 100vh;
+    height: 215vh;
     left: 72px;
     top: 80px;
     background-color: green;
     box-sizing: border-box;
     white-space: nowrap;
+    border-style:dotted;
    
 }
 
